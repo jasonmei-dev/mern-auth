@@ -1,4 +1,4 @@
-import { Navbar, Nav, Container, NavDropdown, Badge } from 'react-bootstrap';
+import { Navbar, Nav, Container, NavDropdown } from 'react-bootstrap';
 import { Link, useNavigate } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import { FaSignInAlt, FaSignOutAlt } from 'react-icons/fa';

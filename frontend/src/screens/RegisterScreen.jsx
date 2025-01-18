@@ -6,6 +6,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { useRegisterMutation } from '../slices/usersApiSlice';
 import { setCredentials } from '../slices/authSlice';
 import Loader from '../components/Loader';
+import { toast } from 'react-toastify';
 
 const RegisterScreen = () => {
   const [name, setName] = useState('');
